@@ -13,12 +13,13 @@ a:hover {
 }
 
 .hire{
-    background-color: rgba(46, 88, 227, 0.819);
+    background-color: rgba(29, 61, 165, 0.819);
     height: 100%;
     text-align: center;
-    padding-top: 15px;
-    padding-bottom: 15px; 
-    
+    padding: 15px 80px 15px 80px;
+
+
+
     color: white;
 }
 .hire a{
@@ -32,14 +33,16 @@ a:hover {
 
 .nav{
     display: flex;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
+    justify-content: space-between;
+    align-items: center;
 }
 
 
 .other{
-        flex-basis: 55%;
+
         display: flex;
-        margin-left: 20px;
+        margin-left: 0px;
 }
 
 .end{
@@ -58,43 +61,80 @@ a:hover {
 
 
 
-.links{
-    margin-top: 40px;
-    word-spacing: 10px;
+.nav-menu{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 14px;
+    display: flex;
+    margin-right: 15px;
 }
 
-.links a {
+.nav-menu a {
     text-decoration: none;
 }
 
-.links a:hover {
-    border-top: 2px solid red;
-    padding-top: 5px;
+.nav-menu .item:hover::after {
+    width: 100%;
 }
+
+.nav-menu .item::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -3px;
+    background-color:red ;
+    height: 2px;
+    width: 0%;
+    transition: 0.3s;
+    margin: auto;
+}
+
+.nav-menu li{
+    list-style: none;
+}
+
+.item{
+    margin-left: 3rem;
+    position: relative;
+}
+
+
+.ham {
+    display: none;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    background-color: black;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
 
 
 
 .pro{
-    background-color: rgba(46, 88, 227, 0.819);
-    margin-left: -5px ;
-    margin-right: 10px;
+    background-color: rgba(29, 61, 165, 0.819);
+    margin-left: 2.5px ;
+    margin-right: 5px;
     font-size: 10px;
-    padding: 0 5px;
-    padding-top: 2.5px;
-    padding-bottom: 2.5px;
-    justify-content: center;
+    padding: 1.5px 5px 1.5px 5px; 
     border-radius: 5px;
+    line-height: 0;
+    color: white;
 }
 
 
 
 .git{
-    word-spacing: 5px;
+    word-spacing: 3px;
     background-color: black;
     padding: 15px 20px 15px 20px;
     border-radius: 40px;
+    margin-left: 10px;
 }
 
 
@@ -102,9 +142,7 @@ a:hover {
     color: white;
 
 }
-.git a:hover {
-    border-top: 0px;
-}
+
 /* end of nav bar */
 
 
@@ -127,7 +165,7 @@ header {
     border-bottom: 0px solid rgb(193, 193, 193);
     padding: 15px 20px 15px 20px;
     margin-left: 15px;
-    
+
 }
 
 
@@ -190,7 +228,7 @@ header {
 .june{
     color: greenyellow;
     text-align: center;
-    
+
 }
 
 .oh{
@@ -199,7 +237,7 @@ header {
     padding: 2px 2px 2px 2px;
     margin-right: 10px;
     margin-left: 0px;
-    
+
 }
 
 
@@ -265,7 +303,7 @@ header {
     border-radius: 30px;
 }
 .hov button{
-    background-color: rgba(46, 88, 227, 0.819);
+    background-color: rgba(29, 61, 165, 0.819);
     color: whitesmoke;
     border-radius: 30px;
 }
@@ -277,8 +315,6 @@ header {
     display: flex;
     justify-content: space-between;
     font-size: 16px;
-    color: rgb(80, 80, 80);
-
 }
 
 .mine{
@@ -347,7 +383,7 @@ a{
 }
 
 .this{
-    color: rgb(100, 100, 100);
+    color: rgb(142, 141, 141);
     font-size: 16px;
     line-height: 25px;
 }
@@ -368,6 +404,8 @@ a{
 
 details {
     font-size: 17px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
@@ -486,7 +524,7 @@ details a:active{
     border-radius: 15px;
     width: 90%;
     line-height: 60px;
-    margin-top: 30px; 
+    margin-top: 30px;
 }
 
 .align {
@@ -513,12 +551,14 @@ details a:active{
 }
 
 
-.mail input{
-    background-color: rgb(37, 53, 146);
+#been{
+    background-color: transparent;
     border-radius: 5px;
-    border: 1px solid white;
+    border: 1px solid white ;
     width: 60%;
     height: 40px;
+    outline: none;
+
 }
 
 .mail button {
@@ -531,12 +571,9 @@ details a:active{
 }
 
 ::placeholder {
-    color: rgb(188, 188, 188);
-
+    color: white;
+    padding-left: 5px;
 }
-
-
-
 /* end of slack */
 
 
@@ -545,8 +582,14 @@ details a:active{
 
 /* start of brands */
 
+.white{
+    background-color: white;
+}
+
+
 .flex{
     display: flex;
+    justify-content: space-between;
 }
 .flex a{
     text-decoration: none;
@@ -555,7 +598,7 @@ details a:active{
 .brand{
     margin-top: 15px;
     word-spacing: 20px;
-
+    margin: 20px;
 }
 
 .ends{
@@ -565,8 +608,7 @@ details a:active{
 }
 .others{
     display: flex;
-    flex-basis: 90%;
-    margin-left: 30px;
+    margin-left: 0px;
 }
 /* end of brands */
 
@@ -577,12 +619,11 @@ details a:active{
 /* start of first footer */
 
 
-
-
-
 .foot{
     display: flex;
     list-style: none;
+    justify-content: space-between;
+    margin-top: 30px;
 }
 .foot a{
     text-decoration: none;
@@ -592,17 +633,12 @@ details a:active{
 }
 
 
-
-
-
-
-
 /* beginnning of stay up to date */
 
 .stay{
-    margin-left: 30px;
+    margin-left: 20px;
     display: block;
-    flex-basis: 35%;
+
 }
 
 .with{
@@ -616,7 +652,6 @@ details a:active{
     font-size: 1.7rem;
     color: rgb(121, 163, 190);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    line-height: 80px;
 }
 
 #ben {
@@ -640,48 +675,43 @@ details a:active{
 
 /* start of mini footer */
 
+
+.all li {
+    list-style: none;
+}
+
+
 .all{
     display: flex;
-    margin-top: 30px;
     line-height: 30px;
+    margin-right: 40px;
 }
+
+
 .one{
     display: flex;
-
 }
+
 .two{
     display: flex;
-
 }
 
 
-.ment{
-    margin-right: 100px;
-    margin-left: 10px;
-    flex-basis: 50%;
 
+.items{
+    margin-left: 6rem;
 }
 
-.ex{
-    margin-right: 10px;
-    margin-left: 30px;
-}
-
-.comm{
-
-    margin-left: 150px;
-}
-
-.comp{
-    margin-right: 10px;
-    margin-left: 100px;
-}
 
 .same{
     letter-spacing: 1px;
-    font-size: 17px;
-    font-style: oblique;
-    margin-bottom: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 15px;
+} 
+
+.lin{
+    color: rgb(113, 113, 113);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* end of mini footer */
@@ -698,17 +728,24 @@ details a:active{
 
 footer{
     display: flex;
-    font-size: 15px;
-    border-top: 1px solid black;
+    font-size: 13px;
+    border-top: 1px solid rgb(212, 212, 212);
     margin-top: 40px;
     padding: 15px;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .copy{
-    flex-basis: 75%;
-    font-size: 16px;
+    font-size: 15px;
+    color: rgb(113, 113, 113);
 }
 
+.term ul{
+    list-style: none; 
+    display: flex;
+    margin-right: 20px;
+}
 
 footer a:hover{
     text-decoration: underline;
@@ -722,19 +759,14 @@ footer a:active{
 
 footer a{
     text-decoration: none;
+    color: rgb(113, 113, 113);
 }
 
-.terms{
-    margin-right: 15px;
+.lic{
+    margin-left: 2rem;
 }
 
-.cook{
-    margin-right: 15px;
-}
 
-.priv{
-    margin-right: 15px;
-}
 
 
 /* end of footer */
@@ -745,7 +777,7 @@ footer a{
 /* start of media query */
 
 
-@media (max-width:1350px){ 
+@media (max-width:768px){
 
 
 
@@ -753,17 +785,37 @@ footer a{
         width: 100%;
     }
 
-    .links{
-        display: none;
-        
-    }
+    /* .nav-menu{
+            left: -100%;
+            top: 2rem;
+            flex-direction: column;
+            background-color: rgba(46, 88, 227, 0.819);
+            width: 80%;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            text-align: center;
+            transition: 0.3s; 
+
+    } */
     .nav{
         margin-bottom: 0px;
     }
     .nav img{
         width: 60px;
     }
-        
+
+
+    /* .ham {
+        display: block;
+        cursor: pointer;
+    } */
+
+
+    .nav-menu {
+        left: 0;
+        display: none;
+    }
+
 
     .end{
         display: none;
@@ -796,11 +848,11 @@ footer a{
         padding: 20px 20px 20px 20px;
     }
 
-    
+
 
     .fone{
         width: 100%;
-        margin: auto;  
+        margin: auto;
         padding-top: 10px;
         display: block;
     }
@@ -812,7 +864,7 @@ footer a{
 
     .pamper{
         margin: auto;
-        padding-bottom: 30px; 
+        padding-bottom: 30px;
         text-align: left;
     }
 
@@ -821,14 +873,14 @@ footer a{
         display: block;
         margin: auto;
         width: 95%;
-        
+
     }
 
     .boo{
         margin-bottom: 20px;
         width: 100%;
         padding-bottom: 30px;
-    
+
     }
 
     .first{
@@ -867,10 +919,10 @@ footer a{
     .slack{
         width: 95%;
         line-height: 30px;
-        padding: 50px 25px 50px 25px; 
+        padding: 50px 25px 50px 25px;
     }
 
-    
+
 
     #been{
         width: 100%;
@@ -909,7 +961,7 @@ footer a{
         width: 60%;
     }
 
-    
+
     .bun{
         margin-left: 0px;
         margin: auto;
@@ -918,34 +970,30 @@ footer a{
 
     .sun{
         margin-top: 10px;
-    }
+    } 
+
 
 
     .all{
         display: block;
+        margin-left: -80px;
+        margin-top: 20px;
     }
+    
 
     .one{
-        margin: auto;
+        margin-top: 20px;
     }
 
-    .ment{
-        flex-basis: 35%;
-        margin-right: 15px;
-    }
-
-    .comm{
-        margin-left: 10px;
-        flex-basis: 35%;
-    }
-
-    .comp{
-        margin-left: 15px;
-    }
 
     .two{
         margin-top: 20px;
     }
+
+    .comp{
+        margin-left: 60px;
+    }
+
 
     footer{
         display: block;
@@ -956,47 +1004,125 @@ footer a{
     .copy{
         margin-bottom: 10px;
     }
+
+
+    .term ul{
+        justify-content: center;
+    }
+
+
+
 }
+
+
+
+
+
+
 
 
 
 
 /* FOR TABLET */
 
-/* @media (min-width:768px) and (max-width:1090px){
+@media (min-width:768px) and (max-width:1200px){
 
 
     .hire{
         width: 100%;
-
     }
-
-    .nav{
-        margin-bottom: 0px;
-    }
-
-
-    .other{
-        flex-basis: 20% ;
-        margin-left: 0px;
-        
-    }
-
-
-    .other img{
-        width: 35%;
-        
-    }
-
-    .links{
-        margin-top: 20px;
-    }
-
 
     .end{
         display: none;
     }
-} */
+
+
+
+
+
+
+    .firstbox{
+        width: 95%;
+    }
+
+    .firstbox img{
+        width: 100%;
+    }
+
+    .pamper{
+        flex-basis: 60%;
+    }
+
+
+    .match{
+        width: 95%;
+    }
+
+    .mine{
+        flex-basis: 140%;
+    }
+
+
+
+    .first{
+        width: 53%;
+    }
+
+    .second{
+        width: 53%;
+    }
+
+    .third{
+        width: 53%;
+    }
+
+    .fourth{
+        width: 53%;
+    }
+    .fifth{
+        width: 53%;
+    }
+
+    .sixth{
+        width: 53%;
+    }
+
+    .seventh{
+        width: 53%;
+    }
+
+    .eight{
+        width: 53%;
+    }
+
+    
+    .foot{
+        display: block;
+    }
+
+    .with{
+        width: 25%;
+    }
+
+
+    #ben{
+        width: 30%;
+    }
+
+    
+    .all{
+        margin-top: 20px;
+        justify-content: space-evenly;
+    }
+
+
+    .ment{
+        margin-left: -80px;
+    }  
+    
+
+
+}
 
 
 
