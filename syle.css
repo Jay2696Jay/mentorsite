@@ -1074,7 +1074,7 @@ footer a{
     }
 
 
-    /* .match{
+    .match{
         width: 95%;
     }
 
@@ -1082,9 +1082,13 @@ footer a{
         flex-basis: 140%;
     }  */
 
+    .mee{
+        padding-bottom: 40px;
+    }
+
     .idea{
         padding-bottom: 20px;
-    } 
+    }
 
     .mine{
         height: 100%;
