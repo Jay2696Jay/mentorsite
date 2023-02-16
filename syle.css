@@ -1,0 +1,1159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(246, 250, 252);
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.hire{
+    background-color: rgba(29, 61, 165, 0.819);
+    height: 100%;
+    text-align: center;
+    padding: 15px 80px 15px 80px;
+
+
+
+    color: white;
+}
+.hire a{
+    color: white;
+}
+
+
+/* start of nav bar */
+
+
+
+.nav{
+    display: flex;
+    margin-bottom: 0px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.other{
+
+        display: flex;
+        margin-left: 0px;
+}
+
+.end{
+    margin-top: 20px;
+    font-size: 25px;
+    letter-spacing: 1px;
+}
+.end a{
+    text-decoration: none;
+}
+
+.bee{
+    border-bottom: 3px solid rgb(190, 117, 117);
+
+}
+
+
+
+.nav-menu{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 14px;
+    display: flex;
+    margin-right: 15px;
+}
+
+.nav-menu a {
+    text-decoration: none;
+}
+
+.nav-menu .item:hover::after {
+    width: 100%;
+}
+
+.nav-menu .item::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -3px;
+    background-color:red ;
+    height: 2px;
+    width: 0%;
+    transition: 0.3s;
+    margin: auto;
+}
+
+.nav-menu li{
+    list-style: none;
+}
+
+.item{
+    margin-left: 3rem;
+    position: relative;
+}
+
+
+.ham {
+    display: none;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    background-color: black;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+
+
+
+.pro{
+    background-color: rgba(29, 61, 165, 0.819);
+    margin-left: 2.5px ;
+    margin-right: 5px;
+    font-size: 10px;
+    padding: 1.5px 5px 1.5px 5px; 
+    border-radius: 5px;
+    line-height: 0;
+    color: white;
+}
+
+
+
+.git{
+    word-spacing: 3px;
+    background-color: black;
+    padding: 15px 20px 15px 20px;
+    border-radius: 40px;
+    margin-left: 10px;
+}
+
+
+.git a{
+    color: white;
+
+}
+
+/* end of nav bar */
+
+
+
+/* start of header */
+
+header {
+    display: flex;
+    border-top: 1px solid rgb(193, 193, 193);
+    border-bottom: 1px solid rgb(193, 193, 193);
+}
+
+.head {
+    letter-spacing: 1px;
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-right: 1px solid rgb(193, 193, 193);
+    border-left: 1px solid rgb(193, 193, 193);
+    border-top: 0px solid rgb(193, 193, 193);
+    border-bottom: 0px solid rgb(193, 193, 193);
+    padding: 15px 20px 15px 20px;
+    margin-left: 15px;
+
+}
+
+
+/* end of header */
+
+
+/*maincontent*/
+
+
+
+/* start of spans */
+
+.codes{
+    display: flex;
+    font-size: 14px;
+    margin-top: 60px;
+}
+
+.may{
+    flex-basis: 81%;
+}
+
+.js{
+    color: palevioletred;
+    margin-left: 10px;
+}
+
+.ht{
+    color: rgba(7, 161, 161, 0.45);
+    margin-left: 10px;
+}
+
+.new{
+    font-size: 20px;
+}
+
+
+.free{
+    color: rgb(120, 120, 235);
+    border: 1px solid rgb(120, 120, 235) ;
+    background-color: rgb(232, 232, 253);
+    padding: 5px 10px 5px 10px;
+    border-radius: 30px;
+}
+
+.cs{
+    color: rgb(120, 120, 235);
+    margin-left: 10px;
+}
+
+.junior{
+    border: 2px solid greenyellow;
+    padding: 0.5px 0.5px 0.5px 0.5px;
+    margin-right: 5px;
+    display: flex;
+    width: 100px;
+    border-radius: 5px;
+}
+
+.june{
+    color: greenyellow;
+    text-align: center;
+
+}
+
+.oh{
+    color: white;
+    background-color: greenyellow;
+    padding: 2px 2px 2px 2px;
+    margin-right: 10px;
+    margin-left: 0px;
+
+}
+
+
+/* end of spans */
+
+
+
+
+/* start of first main */
+
+.firstbox{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin-top: 50px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    height: 500px;
+    margin-bottom: 40px;
+}
+
+.pamper{
+    flex-basis: 45%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    font-size: 18px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-right: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.pamper button{
+    padding: 10px 30px 10px 30px ;
+    background-color: red;
+    color: whitesmoke;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+.fone{
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-left: 0px;
+
+}
+
+.fone img{
+    width: 550px;
+    margin-bottom: 10px;
+}
+
+.fone button{
+    padding: 5px 10px 5px 10px;
+}
+
+.hav button{
+    background-color: azure;
+    color: gray;
+    margin-left: 10px;
+    border-radius: 30px;
+}
+.hov button{
+    background-color: rgba(29, 61, 165, 0.819);
+    color: whitesmoke;
+    border-radius: 30px;
+}
+
+
+.match {
+    margin: auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    line-height: 1.5rem;
+}
+
+.mine{
+    flex-basis: 100%;
+
+}
+
+.boo {
+    background-color: rgb(255, 255, 255);
+    padding: 20px  20px 10px 20px;
+    margin-right: 20px;
+    border-radius: 15px;
+}
+
+.boo ul{
+    padding-left: 20px;
+}
+
+
+.mee{
+    margin-bottom: 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    padding: 20px 20px 10px 20px;
+}
+
+.idea{
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    padding: 20px 20px 10px 20px;
+    height: 50%; 
+}
+
+.idea ol{
+    padding-left: 20px;
+}
+
+.paris{
+    font-size: 20px;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 1px;
+    padding-left: 10px;
+    padding-bottom: 30px;
+}
+
+.bol{
+    letter-spacing: 1px;
+    background-color: rgb(237, 237, 237) ;
+    padding: 0px 5px 0px 5px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.split{
+    display: flex;
+}
+
+
+.mee ul{
+    list-style: none;
+}
+
+a{
+    color: black;
+}
+
+.this{
+    color: rgb(142, 141, 141);
+    line-height: 25px;
+}
+
+
+/* end of first main */
+
+
+
+
+/* end of main content */
+
+
+
+
+
+/* beginning of details */
+
+details {
+    font-size: 17px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+details a:active{
+    border: 2px solid aquamarine;
+    border-style: dotted;
+    padding: 5px 0px 5px 0px
+}
+
+.san li{
+    list-style: none;
+}
+
+.faq{
+    font-size: 15px;
+    font-family: monospace;
+    letter-spacing: 2px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+.first {
+    margin: auto;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: rgb(255, 255,255);
+    width: 35%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.second {
+    margin: auto;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: rgb(255, 255,255);
+    width: 35%;
+    margin-bottom: 10px;
+}
+
+.third {
+    margin: auto;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: rgb(255, 255,255);
+    width: 35%;
+    margin-bottom: 10px;
+
+
+}
+
+.fourth {
+    margin: auto;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: rgb(255, 255,255);
+    width: 35%;
+    margin-bottom: 10px;
+}
+
+.fifth {
+    margin: auto;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: rgb(255, 255,255);
+    width: 35%;
+    margin-bottom: 10px;
+}
+
+.sixth {
+    margin: auto;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: rgb(255, 255,255);
+    width: 35%;
+    margin-bottom: 10px;
+}
+
+.seventh {
+    margin: auto;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: rgb(255, 255,255);
+    font-size: 20px;
+    width: 35%;
+    margin-bottom: 10px;
+    line-height: 30px;
+}
+
+.eight {
+    margin: auto;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: rgb(255,255,255);
+    font-size: 20px;
+    width: 35%;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+/* beginning of slack */
+.slack {
+    background-color: rgb(37, 53, 146);
+    display: block;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    border: 0px solid;
+    padding: 40px;
+    margin: auto;
+    border-radius: 15px;
+    width: 90%;
+    line-height: 60px;
+    margin-top: 30px;
+}
+
+.align {
+    font-size: 13px;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 40px;
+}
+
+.bin {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+.line {
+    font-size: 25px;
+    width: 90%;
+    line-height: 40px;
+    margin: auto;
+}
+
+.mail{
+    width: 70%;
+    margin: auto;
+}
+
+
+#been{
+    background-color: transparent;
+    border-radius: 5px;
+    border: 1px solid white ;
+    width: 60%;
+    height: 40px;
+    outline: none;
+
+}
+
+.mail button {
+    border-radius: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(78, 78, 182);
+    height: 40px;
+    padding: 0px 20px 0px 20px;
+    margin-left: 10px;
+}
+
+::placeholder {
+    color: white;
+    padding-left: 5px;
+}
+/* end of slack */
+
+
+
+
+
+/* start of brands */
+
+.white{
+    background-color: white;
+}
+
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+.flex a{
+    text-decoration: none;
+}
+
+.brand{
+    margin-top: 15px;
+    word-spacing: 20px;
+    margin: 20px;
+}
+
+.ends{
+    margin-top: 13px;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+.others{
+    display: flex;
+    margin-left: 0px;
+}
+/* end of brands */
+
+
+
+
+
+/* start of first footer */
+
+
+.foot{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.foot a{
+    text-decoration: none;
+}
+.foot a:hover{
+    text-decoration: underline;
+}
+
+
+/* beginnning of stay up to date */
+
+.stay{
+    margin-left: 20px;
+    display: block;
+}
+
+.with{
+    line-height: 20px;
+    font-size: 16px;
+    width: 50%;
+}
+
+
+.cbn {
+    font-size: 1.7rem;
+    color: rgb(121, 163, 190);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#ben {
+    width: 60% ;
+    height: 40px;
+}
+
+#sun {
+    padding: 5px 10px 5px 10px;
+    height: 30px;
+    border-radius: 40px;
+    background-color: red;
+    margin-left: 10px;
+}
+.bun{
+    margin-top: 10px;
+}
+
+/* end of stay up to date */
+
+
+/* start of mini footer */
+
+
+.all li {
+    list-style: none;
+}
+
+
+.all{
+    display: flex;
+    line-height: 30px;
+    margin-right: 40px;
+}
+
+
+.one{
+    display: flex;
+}
+
+.two{
+    display: flex;
+}
+
+
+
+.items{
+    margin-left: 6rem;
+}
+
+
+.same{
+    letter-spacing: 1px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 15px;
+} 
+
+.lin{
+    color: rgb(113, 113, 113);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* end of mini footer */
+
+
+/* end of first footer */
+
+
+
+
+
+
+/* start of footer */
+
+footer{
+    display: flex;
+    font-size: 13px;
+    border-top: 1px solid rgb(212, 212, 212);
+    margin-top: 40px;
+    padding: 15px;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.copy{
+    font-size: 15px;
+    color: rgb(113, 113, 113);
+}
+
+.term ul{
+    list-style: none; 
+    display: flex;
+    margin-right: 20px;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
+
+footer a:active{
+    border: 2px solid aquamarine;
+    border-style: dotted;
+    padding: 5px 0px 5px 0px;
+}
+
+footer a{
+    text-decoration: none;
+    color: rgb(113, 113, 113);
+}
+
+.lic{
+    margin-left: 2rem;
+}
+
+
+
+
+/* end of footer */
+
+
+
+
+/* start of media query */
+
+
+@media (max-width:800px){
+
+
+    body{
+        font-size: 12px;
+    }
+
+    .hire{
+        width: 100%;
+    }
+
+    /* .nav-menu{
+            left: -100%;
+            top: 2rem;
+            flex-direction: column;
+            background-color: rgba(46, 88, 227, 0.819);
+            width: 80%;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            text-align: center;
+            transition: 0.3s; 
+
+    } */
+    .nav{
+        margin-bottom: 0px;
+    }
+    .nav img{
+        width: 60px;
+    }
+
+
+    /* .ham {
+        display: block;
+        cursor: pointer;
+    } */
+
+
+    .nav-menu {
+        left: 0;
+        display: none;
+    }
+
+
+    .end{
+        display: none;
+    }
+
+
+
+    .other{
+        margin: 0px;
+    }
+
+    header{
+        margin-top: 0px;
+    }
+
+    .head{
+        border-right: 1px solid rgb(193, 193, 193);
+    }
+
+
+    .firstbox{
+        display: block;
+        margin-bottom: 40px;
+        margin-top: 30px;
+        width: 95%;
+        background-color: rgb(255, 255, 255);
+        height: 100%;
+        justify-content: center;
+        text-align: center;
+        padding: 20px 20px 20px 20px;
+    }
+
+
+
+    .fone{
+        width: 100%;
+        margin: auto;
+        padding-top: 10px;
+        display: block;
+    }
+
+    .fone img{
+        width: 100%;
+    }
+
+
+    .pamper{
+        margin: auto;
+        padding-bottom: 30px;
+        text-align: left;
+    }
+
+
+    .match{
+        display: block;
+        margin: auto;
+        width: 95%;
+        font-size: 14px;
+
+    }
+
+    .boo{
+        margin-bottom: 20px;
+        width: 100%;
+        padding-bottom: 30px;
+
+    }
+
+    details{
+        font-size: 16px;
+    }
+
+    .first{
+        width: 85%;
+    }
+
+    .second{
+        width: 85%;
+    }
+
+    .third {
+        width: 85%;
+    }
+
+    .fourth {
+        width: 85%;
+    }
+
+    .fifth {
+        width: 85%;
+    }
+
+    .sixth {
+        width: 85%;
+    }
+
+    .seventh {
+        width: 85%;
+    }
+
+    .eight{
+        width: 85%;
+    }
+
+
+    .slack{
+        width: 95%;
+        line-height: 30px;
+        padding: 50px 25px 50px 25px;
+    }
+
+    .line{
+        font-size: 23px;
+    }
+
+
+
+    #been{
+        width: 100%;
+    }
+
+    #sub{
+        margin-top: 10px;
+    }
+
+    .flex{
+        display: block;
+    }
+
+    .others{
+        justify-content: center;
+        line-height: 30px;
+    }
+
+    .brand{
+        text-align: center;
+        line-height: 50px;
+    }
+
+
+    .foot{
+        display: block;
+    }
+
+    .stay{
+        margin-left: 0px;
+        text-align: center;
+    }
+
+    .with{
+        margin: auto;
+        width: 60%;
+    }
+
+
+    .bun{
+        margin-left: 0px;
+        margin: auto;
+        width: 100%;
+    }
+
+    .sun{
+        margin-top: 10px;
+    } 
+
+
+
+    .all{
+        display: block;
+        margin-left: -80px;
+        margin-top: 20px;
+        font-size: 14px;
+    }
+    
+
+    .one{
+        margin-top: 20px;
+    }
+
+
+    .two{
+        margin-top: 20px;
+    }
+
+    .comp{
+        margin-left: 55px;
+    }
+
+
+    footer{
+        display: block;
+        margin: auto;
+        text-align: center;
+        font-size: 13px;
+    }
+
+    .copy{
+        margin-bottom: 10px;
+        font-size: 14px;
+    }
+
+
+    .term ul{
+        justify-content: center;
+    }
+
+    .same{
+        font-size: 14px
+    }
+
+    .this{
+        font-size: 14px;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* FOR TABLET */
+
+@media (min-width:800px) and (max-width:1200px){
+
+
+    .hire{
+        width: 100%;
+    }
+
+    .end{
+        display: none;
+    }
+
+
+
+
+
+
+    .firstbox{
+        width: 95%;
+    }
+
+    .firstbox img{
+        width: 100%;
+    }
+
+    .pamper{
+        flex-basis: 60%;
+    }
+
+
+    /* .match{
+        width: 95%;
+    }
+
+    /* .mine{
+        flex-basis: 140%;
+    }  */
+
+    .idea{
+        padding-bottom: 20px;
+    } 
+
+    .mine{
+        height: 100%;
+    } */
+
+    .first{
+        width: 53%;
+    }
+
+    .second{
+        width: 53%;
+    }
+
+    .third{
+        width: 53%;
+    }
+
+    .fourth{
+        width: 53%;
+    }
+    .fifth{
+        width: 53%;
+    }
+
+    .sixth{
+        width: 53%;
+    }
+
+    .seventh{
+        width: 53%;
+    }
+
+    .eight{
+        width: 53%;
+    }
+
+    
+    .foot{
+        display: block;
+    }
+
+    .with{
+        width: 25%;
+    }
+
+
+    #ben{
+        width: 30%;
+    }
+
+    
+    .all{
+        margin-top: 20px;
+        justify-content: space-evenly;
+    }
+
+
+    .ment{
+        margin-left: -160px;
+    }  
+    
+
+
+}
+
+
+
+/* end of media query */
+
+
+
+
