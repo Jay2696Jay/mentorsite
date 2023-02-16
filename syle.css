@@ -774,7 +774,7 @@ footer a{
 /* start of media query */
 
 
-@media (max-width:768px){
+@media (max-width:800px){
 
 
     body{
@@ -1044,7 +1044,7 @@ footer a{
 
 /* FOR TABLET */
 
-@media (min-width:768px) and (max-width:1080px){
+@media (min-width:800px) and (max-width:1200px){
 
 
     .hire{
